@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Forever Begins 💍</title>
+  <link rel="stylesheet" href="yes.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</head>
+<body>
+    <!-- <h1>Thank You for accepting Me!</h1> -->
+  <script>
+  window.onload = () => {
+    // Basic confetti burst
+    confetti({
+      particleCount: 550,
+      spread: 90,
+      origin: { y: 0.6 }
+    });
+  };
+</script>
+
+  <div class="container">
+    <h1 class="fade-in">💖 Yes! You Said YES!💍</h1>
+    <p class="message fade-in-delay">
+      My heart just did a thousand backflips! You’ve made me the happiest person alive. <br/>
+      This is the start of our forever, and I can’t wait to build a lifetime of love, laughter, and magical memories with you. 💫
+    </p>
+
+    <div class="video-container fade-in-video">
+      <video autoplay loop muted playsinline>
+        <source src="./assets/ChatGPT Image May 28, 2025, 04_18_14 PM.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p class="video-caption">💑 This is how we always imagined it — together, forever.</p>
+    </div>
+
+    <a href="index.html" class="back-home">Go Back to Start</a>
+  </div>
+</body>
+</html>
